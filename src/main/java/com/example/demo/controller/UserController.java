@@ -37,6 +37,12 @@ public class UserController {
         return "contact";
     }
 
+    @RequestMapping("/hello")
+    @ResponseBody
+    public String hello() {
+        return "Hello Railway Working!";
+    }
+    
     @RequestMapping("/about")
     public String about() {
         return "about";
