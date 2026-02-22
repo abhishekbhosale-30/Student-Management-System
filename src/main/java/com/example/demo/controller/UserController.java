@@ -22,7 +22,7 @@ public class UserController {
 	UserRepository ur;
 	
 	//open index.jsp
-	@RequestMapping("/index")
+	@RequestMapping("/")
 	public String Index() {
 		return "index";
 	}
